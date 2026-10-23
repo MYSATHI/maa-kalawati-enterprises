@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#003b2d">
+<title>Maa Kalawati Enterprises | Official Store Website</title>
+<style>
+:root{--green:#003b2d;--deep:#00281f;--gold:#f7c943;--cream:#fff9e9;--ink:#102b25;--muted:#60716b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--ink);background:var(--cream)}
+a{color:inherit;text-decoration:none}.topline{background:#001d17;color:#f8e5a0;padding:8px 0;font-size:13px;letter-spacing:.3px;overflow:hidden;white-space:nowrap;border-bottom:1px solid #b58a27}.ticker-track{display:inline-flex;min-width:max-content;align-items:center;animation:shopTicker 34s linear infinite}.ticker-track span{padding:0 28px}.topline:hover .ticker-track{animation-play-state:paused}@keyframes shopTicker{from{transform:translateX(0)}to{transform:translateX(-50%)}}@media(prefers-reduced-motion:reduce){.ticker-track{animation:none;white-space:normal;min-width:0;display:flex;justify-content:center;flex-wrap:wrap}}
+header{background:linear-gradient(110deg,#00271f,#00513d);color:white;position:sticky;top:0;z-index:10;border-bottom:2px solid var(--gold)}
+.nav{max-width:1240px;margin:auto;padding:14px 22px;display:flex;align-items:center;gap:22px;justify-content:space-between}.brand{display:flex;align-items:center;gap:12px;min-width:260px}.shield{width:48px;height:48px;border:2px solid var(--gold);color:var(--gold);display:grid;place-items:center;clip-path:polygon(50% 0,95% 18%,88% 68%,50% 100%,12% 68%,5% 18%);font-weight:900}.brand strong{font-size:clamp(16px,2vw,24px);color:var(--gold);display:block}.brand small{color:#fff4cc}.links{display:flex;align-items:center;gap:17px;font-size:14px}.links a:hover{color:var(--gold)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--gold);color:#17271f;border:0;border-radius:999px;padding:12px 19px;font-weight:800;cursor:pointer}.btn.outline{background:transparent;color:white;border:1px solid var(--gold)}.menu{display:none;background:none;color:white;border:1px solid #648b7c;border-radius:9px;padding:8px 12px}
+.hero{background:radial-gradient(circle at 80% 20%,#0b7051,#003729 48%,#001d17);color:white;position:relative;overflow:hidden}.hero:before{content:"✦  ✧  ✦  ✧  ✦";position:absolute;top:14px;right:3%;font-size:25px;color:#f8c842;opacity:.55;letter-spacing:14px}.hero-grid{max-width:1240px;margin:auto;padding:42px 22px 48px;display:grid;grid-template-columns:1.03fr .97fr;gap:34px;align-items:center}.video-frame{border:2px solid var(--gold);padding:8px;border-radius:18px;background:#001b15;box-shadow:0 18px 60px #0008}.video-frame video{display:block;width:100%;aspect-ratio:16/10;object-fit:contain;background:#000;border-radius:10px}.videonote{font-size:12px;color:#f9e8ae;padding:9px 4px 0}.eyebrow{color:var(--gold);text-transform:uppercase;font-weight:800;letter-spacing:2px;font-size:12px}.hero h1{font-size:clamp(34px,5vw,64px);line-height:1.02;margin:12px 0 14px;color:#ffe28a;text-shadow:0 3px 0 #573d00}.hero h1 span{display:block;color:white;font-size:.75em;text-shadow:none}.hero p{font-size:17px;line-height:1.7;color:#f4f6ec;max-width:590px}.address{color:#fff1bc;font-weight:700;margin:18px 0}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}.trust{background:#002e24;color:white;border-top:1px solid #b58a27;border-bottom:1px solid #b58a27}.trustgrid{max-width:1240px;margin:auto;display:grid;grid-template-columns:repeat(6,1fr);gap:10px;padding:16px 22px}.trustitem{text-align:center;padding:14px 7px;border:1px solid #668b70;border-radius:13px;font-weight:700;font-size:13px}.trustitem b{display:block;font-size:24px;color:var(--gold);margin-bottom:6px}
+section{scroll-margin-top:90px}.section{padding:62px 22px;max-width:1240px;margin:auto}.section.dark{max-width:none;background:linear-gradient(135deg,#003a2b,#001f18);color:white}.section.dark .inner{max-width:1240px;margin:auto}.sectionhead{text-align:center;margin-bottom:30px}.sectionhead .eyebrow{color:#b18a19}.sectionhead h2{font-size:clamp(27px,4vw,42px);margin:8px 0;color:var(--green)}.dark .sectionhead h2{color:var(--gold)}.sectionhead p{color:var(--muted);margin:0}.dark .sectionhead p{color:#d1e3d7}.aboutgrid{display:grid;grid-template-columns:1.2fr .8fr;gap:30px;align-items:center}.aboutcopy h2{font-size:34px;color:var(--green);margin:8px 0}.aboutcopy p{line-height:1.8}.quote{background:#fff0c7;border-left:5px solid var(--gold);border-radius:14px;padding:25px;font-size:20px;font-weight:700;color:#174437}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:17px}.product{background:#fffdf6;color:#15382d;border:1px solid #e7c25a;border-radius:16px;padding:20px 14px;text-align:center;box-shadow:0 6px 20px #001a1017;transition:transform .2s}.product:hover{transform:translateY(-5px)}.product .emoji{font-size:44px;background:#f7efda;border-radius:14px;padding:14px;margin-bottom:12px}.product h3{margin:5px 0 8px}.product p{font-size:13px;color:#64766d;line-height:1.5}.product button{margin-top:8px;border:0;border-radius:30px;background:var(--green);color:white;padding:10px 15px;cursor:pointer}.services{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.service{padding:20px 12px;text-align:center;background:white;border:1px solid #e9dfc8;border-radius:14px}.service b{font-size:28px;display:block}.service h3{font-size:15px}.service p{font-size:13px;color:var(--muted)}.video-section{background:#f7f0df}.videogrid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.panel{background:white;border:1px solid #eadbb7;border-radius:16px;padding:22px}.panel h3{margin-top:0}.panel ul{line-height:2}.contactgrid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.contact-card{background:white;padding:24px;border-radius:16px;border:1px solid #e8ddc5}.contact-card p{line-height:1.7}.contact-card input,.contact-card textarea,.admin input{width:100%;padding:12px;border:1px solid #cbd7cf;border-radius:9px;margin:7px 0 12px;font:inherit}.contact-card textarea{min-height:100px}.contact-card button{width:100%}.small{font-size:12px;color:var(--muted)}footer{background:#001f18;color:white;padding:34px 22px 18px;border-top:3px solid var(--gold)}.footergrid{max-width:1240px;margin:auto;display:grid;grid-template-columns:2fr 1fr 1fr;gap:25px}.footergrid h3{color:var(--gold)}.footergrid a{display:block;margin:9px 0;color:#e4eee8}.copyright{text-align:center;border-top:1px solid #426256;margin-top:25px;padding-top:18px;font-size:12px;color:#b9cfc5}
+dialog{border:0;border-radius:18px;padding:0;max-width:430px;width:calc(100% - 28px);box-shadow:0 20px 80px #0008}dialog::backdrop{background:#001a15bb}.modalhead{background:var(--green);color:white;padding:20px}.modalbody{padding:22px}.close{float:right;background:none;color:white;border:0;font-size:24px;cursor:pointer}.admin{display:none;position:fixed;inset:0;background:#061e18;z-index:30;color:white;overflow:auto;padding:22px}.adminbox{max-width:720px;margin:40px auto;background:#fffdf5;color:var(--ink);padding:28px;border-radius:18px}.adminbox h2{color:var(--green)}.notice{padding:12px;border-radius:10px;background:#e6f5e9;margin:12px 0}.admin label{font-weight:700}.admin .btn{margin:5px 0}.adminclose{float:right;background:#eee;border:0;border-radius:8px;padding:9px;cursor:pointer}
+@media(max-width:980px){.links{display:none;position:absolute;top:100%;left:0;right:0;background:#003729;padding:20px;flex-direction:column;align-items:flex-start}.links.open{display:flex}.menu{display:block}.nav{flex-wrap:wrap}.hero-grid{grid-template-columns:1fr}.hero-copy{order:-1}.trustgrid{grid-template-columns:repeat(3,1fr)}.cards{grid-template-columns:repeat(2,1fr)}.services{grid-template-columns:repeat(2,1fr)}.aboutgrid,.videogrid,.contactgrid{grid-template-columns:1fr}.footergrid{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.brand{min-width:0}.brand strong{font-size:15px}.brand small{font-size:11px}.shield{width:40px;height:40px}.nav{padding:12px}.hero-grid{padding:30px 15px}.hero p{font-size:15px}.trustgrid{grid-template-columns:repeat(2,1fr);padding:12px}.section{padding:44px 15px}.cards{gap:10px}.product{padding:13px 8px}.product .emoji{font-size:34px}.footergrid{grid-template-columns:1fr}}
+
+.hours-chip{display:inline-flex;gap:8px;align-items:center;background:#fff0bd;color:#123d2f;border:1px solid #e7bd3d;border-radius:12px;padding:10px 14px;font-weight:800;margin:12px 0}
+.photo-gallery{display:grid;grid-template-columns:1.2fr 1fr 1fr 1fr;gap:14px;margin-top:26px}
+.photo-card{overflow:hidden;border:2px solid #d9b53d;border-radius:15px;background:#fff;box-shadow:0 8px 22px #001a1020}
+.photo-card img{display:block;width:100%;height:220px;object-fit:cover}
+.photo-card p{padding:10px 12px;margin:0;font-weight:700;font-size:13px;color:#174436}
+.promo-strip{background:linear-gradient(100deg,#00271f,#07583e,#00271f);color:#fff3c4;border-top:2px solid #e7c343;border-bottom:2px solid #e7c343;padding:18px 20px;text-align:center}
+.promo-strip strong{color:#ffd54e;display:block;font-size:clamp(18px,2.5vw,26px);margin-bottom:6px}
+.promo-strip span{font-size:15px}
+
+.featured-store-photo{max-width:1000px;margin:0 auto;border:3px solid #d9b53d;border-radius:18px;overflow:hidden;background:#003b2d;box-shadow:0 15px 35px #001d1730}
+.featured-store-photo img{display:block;width:100%;height:auto;max-height:560px;object-fit:contain}
+</style></head>
+<body>
+<div class="topline" aria-label="दुकान की जानकारी लगातार चलती रहेगी"><div class="ticker-track"><span>✦ MAA KALAWATI ENTERPRISES</span><span>📍 Utraut, Chakia, Chandauli – 232103, Uttar Pradesh</span><span>☎ +91 6307140432</span><span>☎ +91 7518964408</span><span>🕗 दुकान का समय: रोज़ सुबह 8:00 AM से दोपहर 12:00 PM</span><span>🛍️ Electronics Store • TV • Refrigerator • Washing Machine • AC • Mobile</span><span>✦ MAA KALAWATI ENTERPRISES</span><span>📍 Utraut, Chakia, Chandauli – 232103, Uttar Pradesh</span><span>☎ +91 6307140432</span><span>☎ +91 7518964408</span><span>🕗 दुकान का समय: रोज़ सुबह 8:00 AM से दोपहर 12:00 PM</span><span>🛍️ Electronics Store • TV • Refrigerator • Washing Machine • AC • Mobile</span></div></div>
+<header><div class="nav">
+<a class="brand" href="#home"><div class="shield">MKE</div><div><strong>MAA KALAWATI ENTERPRISES</strong><small>Your Trusted Electronics Store</small></div></a>
+<button class="menu" id="menuBtn" aria-label="Open menu">☰ Menu</button>
+<nav class="links" id="navLinks"><a href="#home">Home</a><a href="#about">About Us</a><a href="#products">Products</a><a href="#services">Services</a><a href="#shopMoments">Photo Gallery</a><a href="#gallery">Video & Gallery</a><a href="#contact">Contact</a><a href="/customer.html">Customer Login</a><a href="/admin.html">Admin Login</a></nav>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="hero-grid">
+<div class="video-frame"><video id="mainVideo" controls autoplay muted loop playsinline preload="auto" poster="images_store_reference.jpg"><source src="videos/enterprise.mp4" type="video/mp4">Your browser does not support HTML video.</video><div class="videonote">▶ दुकान का प्रचार वीडियो · ऑटो-प्ले (म्यूट) और रिपीट</div></div>
+<div class="hero-copy"><div class="eyebrow">✦ Welcome to our store ✦</div><h1>MAA KALAWATI <span>ENTERPRISES</span></h1><p><strong>Your Trusted Electronics Store</strong><br>हर घर की जरूरत, भरोसे के साथ। इलेक्ट्रॉनिक्स उत्पादों की जानकारी, उपयोगी सेवाएँ और ग्राहक सहायता — सब एक ही जगह।</p><div class="address">📍 Utraut, Chakia, Chandauli – 232103, Uttar Pradesh</div><div class="hours-chip">🕗 Open Daily: 8:00 AM – 12:00 PM <span style="font-weight:500">| Sunday to Monday</span></div><div class="actions"><a class="btn" href="#products">Explore Products →</a><a class="btn outline" href="#contact">Contact Us</a></div></div>
+</div></section>
+<div class="trust"><div class="trustgrid"><div class="trustitem"><b>✓</b>Product Guidance</div><div class="trustitem"><b>◆</b>Value & Quality</div><div class="trustitem"><b>⚒</b>Service Support</div><div class="trustitem"><b>⌂</b>Customer Care</div><div class="trustitem"><b>▣</b>Secure Enquiries</div><div class="trustitem"><b>♡</b>Customer First</div></div></div>
+
+<section id="storePhotoFeature"><div class="section">
+  <div class="sectionhead"><div class="eyebrow">Maa Kalawati Enterprises</div><h2>हमारी दुकान की झलक</h2><p>दुकान, इलेक्ट्रॉनिक्स उत्पाद और ग्राहक सेवा — आपकी भेजी हुई फोटो</p></div>
+  <div class="featured-store-photo"><img src="images_store_reference.jpg" alt="Maa Kalawati Enterprises की दुकान का बैनर, इलेक्ट्रॉनिक्स सामान और ग्राहक सेवा"></div>
+</div></section>
+<section id="about"><div class="section"><div class="aboutgrid"><div class="aboutcopy"><div class="eyebrow">Welcome to</div><h2>MAA KALAWATI ENTERPRISES</h2><p>हमारा उद्देश्य ग्राहकों को इलेक्ट्रॉनिक्स उत्पादों के बारे में सही जानकारी, विनम्र सहायता और भरोसेमंद सेवा प्रदान करना है। TV, refrigerator, washing machine, AC, mobile, laptop और अन्य उपकरणों के बारे में जानकारी के लिए हमसे संपर्क करें।</p><p>We believe in helpful service, clear communication, and long-term customer relationships.</p><a class="btn" href="#contact">Get in Touch →</a></div><div class="quote">“सिर्फ सामान नहीं, आपके घर की सुविधा और विश्वास भी हमारे लिए महत्वपूर्ण है।”<p class="small">— Maa Kalawati Enterprises</p></div></div></div></section>
+<section class="section dark" id="products"><div class="inner"><div class="sectionhead"><div class="eyebrow">Explore our range</div><h2>OUR PRODUCTS</h2><p>हर प्रोडक्ट की जानकारी — एक ही जगह</p></div><div class="cards" id="productCards"></div></div></section>
+<section id="services"><div class="section"><div class="sectionhead"><div class="eyebrow">How we help</div><h2>OUR SERVICES</h2><p>आपका विश्वास, हमारी पहचान</p></div><div class="services"><div class="service"><b>🚚</b><h3>Delivery Enquiry</h3><p>अपने क्षेत्र में उपलब्धता पूछें।</p></div><div class="service"><b>🔧</b><h3>Installation Info</h3><p>उत्पाद के अनुसार सहायता।</p></div><div class="service"><b>♻️</b><h3>Product Guidance</h3><p>खरीदने से पहले जानकारी लें।</p></div><div class="service"><b>🛡️</b><h3>Warranty Guidance</h3><p>ब्रांड की शर्तों के अनुसार।</p></div><div class="service"><b>🎧</b><h3>Customer Support</h3><p>अपने सवाल के लिए संपर्क करें।</p></div></div></div></section>
+
+<section class="promo-strip" id="smartPromos">
+  <strong>✨ Smart Auto Promo Updates ✨</strong>
+  <span id="promoText">Maa Kalawati Enterprises — आपके विश्वास और सुविधा के लिए हमेशा तैयार।</span>
+  <div class="small" style="color:#d8e7dd;margin-top:7px">प्रमोशनल लाइनें अपने-आप बदलती रहेंगी। असली AI से नई सामग्री बनाने के लिए बाद में सुरक्षित AI API जोड़नी होगी।</div>
+</section>
+<section id="shopMoments"><div class="section">
+  <div class="sectionhead"><div class="eyebrow">Real store banner supplied by you</div><h2>हमारी दुकान और ग्राहक अनुभव</h2><p>आपके भेजे गए बैनर से दुकान, ग्राहक बातचीत और सामान देने के दृश्य</p></div>
+  <div class="photo-gallery">
+    <div class="photo-card"><img src="images_store_reference.jpg" alt="Maa Kalawati Enterprises का भेजा गया मूल दुकान बैनर"><p>दुकान का बैनर और ग्राहक सेवा</p></div>
+    <div class="photo-card"><img src="images/store_moment_1.jpg" alt="दुकान में इलेक्ट्रॉनिक्स सामान के साथ ग्राहक सेवा का दृश्य"><p>उत्पाद और ग्राहक सहायता</p></div>
+    <div class="photo-card"><img src="images/store_moment_2.jpg" alt="दुकान में ग्राहक से बात करते हुए कर्मचारी"><p>ग्राहक से बातचीत</p></div>
+    <div class="photo-card"><img src="images/store_moment_3.jpg" alt="दुकान में सामान और ग्राहक अनुभव का दृश्य"><p>सामान और सेवा</p></div>
+  </div>
+</div></section>
+<section class="video-section" id="gallery"><div class="section"><div class="sectionhead"><div class="eyebrow">See us in action</div><h2>VIDEO & GALLERY</h2><p>हमारी दुकान और उत्पादों की झलक</p></div><div class="videogrid"><div class="panel"><h3>🎬 Watch Our Store Video</h3><p>दुकान की वीडियो देखने के लिए ऊपर दिए गए प्लेयर का इस्तेमाल करें।</p><button class="btn" id="playVideoBtn">▶ Play Store Video</button></div><div class="panel"><h3>🌟 Why Choose Us?</h3><ul><li>ग्राहक-केंद्रित सेवा</li><li>उत्पादों की स्पष्ट जानकारी</li><li>सहज संपर्क और पूछताछ</li><li>स्थानीय ग्राहकों के लिए सहायता</li></ul></div></div></div></section>
+<section id="contact"><div class="section"><div class="sectionhead"><div class="eyebrow">We are here to help</div><h2>CONTACT US</h2><p>प्रोडक्ट की जानकारी या किसी भी पूछताछ के लिए संपर्क करें</p></div><div class="contactgrid"><div class="contact-card"><h3>📍 Store Details</h3><p><strong>Maa Kalawati Enterprises</strong><br>Utraut, Chakia, Chandauli – 232103<br>Uttar Pradesh, India</p><p>☎ <a href="tel:+916307140432">+91 6307140432</a><br>☎ <a href="tel:+917518964408">+91 7518964408</a></p><p><strong>🕗 दुकान का समय:</strong><br>रोज़ाना सुबह 8:00 AM से दोपहर 12:00 PM तक<br>Sunday to Monday — Daily Open</p></div><form class="contact-card" id="contactForm"><h3>✉ Send an Enquiry</h3><label for="name">Your name</label><input id="name" required placeholder="Enter your name"><label for="phone">Phone number</label><input id="phone" required inputmode="tel" placeholder="Enter phone number"><label for="message">How can we help?</label><textarea id="message" required placeholder="Write your enquiry"></textarea><button class="btn" type="submit">Submit Enquiry</button><p class="small">When hosted on the configured business server, this form saves your enquiry in the owner/staff admin panel.</p></form></div></div></section>
+</main>
+<footer><div class="footergrid"><div><h3>✦ MAA KALAWATI ENTERPRISES</h3><strong>Your Trusted Electronics Store</strong><p>Your Trusted Electronics Store</p><p class="small" style="color:#c6d8ce">हर घर की जरूरत, भरोसे के साथ।</p></div><div><h3>Quick Links</h3><a href="#about">About Us</a><a href="#products">Products</a><a href="#services">Services</a><a href="#shopMoments">Photo Gallery</a><a href="#gallery">Video & Gallery</a></div><div><h3>Contact</h3><a href="tel:+916307140432">+91 6307140432</a><a href="tel:+917518964408">+91 7518964408</a><p>Utraut, Chakia, Chandauli – 232103</p><a href="#contact">Send Enquiry</a></div></div><div class="copyright">© <span id="year"></span> Maa Kalawati Enterprises · Website Preview</div></footer>
+<dialog id="loginDialog"><div class="modalhead"><button class="close" id="closeLogin" aria-label="Close">×</button><h3 id="loginTitle">Customer Login</h3></div><div class="modalbody"><p>This preview does not have a live authentication server yet.</p><label>Email</label><input type="email" placeholder="name@example.com" style="width:100%;padding:12px;border:1px solid #ccc;border-radius:8px"><p class="small">Live customer accounts and secure owner login require a backend and database.</p><button class="btn" id="closeLogin2">Close</button></div></dialog>
+<div class="admin" id="adminDemo"><div class="adminbox"><button class="adminclose" id="closeAdmin">✕ Close</button><h2>AVN Admin Panel — Preview</h2><p>This is a visual demo only. It is not a secure, live admin system.</p><div class="notice">To enable real admin access, connect server-side authentication, database and protected APIs before publishing.</div><label>Store announcement (saved in this browser preview)</label><input id="announcementInput" placeholder="Enter a demo announcement"><button class="btn" id="saveAnnouncement">Save Preview Announcement</button><p id="adminMessage" class="small"></p><hr><h3>Dashboard modules planned</h3><p>Products · Photos · Videos · Offers · Enquiries · Customer accounts · Analytics · Business settings</p></div></div>
+<script>
+
+const promoLines = [
+  'हर घर की जरूरत, भरोसे के साथ — Maa Kalawati Enterprises.',
+  'नए इलेक्ट्रॉनिक्स उत्पादों की जानकारी के लिए आज ही संपर्क करें।',
+  'आपका विश्वास, हमारी पहचान — ग्राहक सेवा हमेशा प्राथमिकता।',
+  'TV, Refrigerator, Washing Machine, AC और अन्य उत्पादों के लिए पूछताछ करें।',
+  'Maa Kalawati Enterprises — सही जानकारी, सहज सेवा और भरोसे का साथ।'
+];
+let promoIndex = 0;
+const promoText = document.getElementById('promoText');
+if (promoText) {
+  promoText.textContent = promoLines[0];
+  setInterval(() => {
+    promoIndex = (promoIndex + 1) % promoLines.length;
+    promoText.textContent = promoLines[promoIndex];
+  }, 5000);
+}
+const heroVideo = document.getElementById('mainVideo');
+if (heroVideo) {
+  heroVideo.muted = true;
+  const tryAutoplay = () => heroVideo.play().catch(() => {
+    // Some browser settings or power-saving modes may block autoplay.
+    // Native video controls remain available to the visitor.
+  });
+  if (document.readyState === 'complete') tryAutoplay();
+  else window.addEventListener('load', tryAutoplay, {once:true});
+}
+
+const products=[
+['📺','LED & Smart TVs','TV product information and enquiries.'],
+['🧊','Refrigerators','Compare sizes and product features.'],
+['🧺','Washing Machines','Explore available washing machine options.'],
+['❄️','Air Conditioners','Ask about cooling solutions.'],
+['📱','Mobile Phones','Find product details and availability.'],
+['💻','Laptops & Computers','Ask about computers and accessories.'],
+['🍳','Kitchen Appliances','Useful appliances for everyday needs.'],
+['🎧','Audio & Accessories','Speakers, headphones and more.']
+];
+const cards=document.getElementById('productCards');
+function renderProducts(items, fromServer=false){
+ cards.replaceChildren();
+ items.forEach((item)=>{
+  const emoji=item.emoji || ({'TV':'📺','Refrigerator':'🧊','Washing Machine':'🧺','AC':'❄️','Mobile':'📱','Computer':'💻','Kitchen':'🍳','Audio':'🎧'}[item.category] || '🛍️');
+  const name=String(item.name||'Product'); const desc=String(item.description || item.category || (fromServer?'Available at our store':'Product information and enquiries.'));
+  const el=document.createElement('article');el.className='product';
+  const icon=document.createElement('div');icon.className='emoji';icon.textContent=emoji;
+  const title=document.createElement('h3');title.textContent=name;
+  const text=document.createElement('p');text.textContent=desc;
+  if(fromServer && item.price!==null && item.price!==undefined){const price=document.createElement('p');price.className='small';price.textContent='Price: ₹'+Number(item.price).toLocaleString('en-IN');el.append(icon,title,text,price)}else{el.append(icon,title,text)}
+  const btn=document.createElement('button');btn.type='button';btn.textContent='Ask About Product';btn.addEventListener('click',()=>{document.getElementById('message').value='I would like to enquire about: '+name;document.getElementById('contact').scrollIntoView({behavior:'smooth'});document.getElementById('name').focus()});el.append(btn);cards.appendChild(el);
+ });
+}
+renderProducts(products.map(([emoji,name,description])=>({emoji,name,description})));
+fetch('/api/products').then(r=>r.ok?r.json():Promise.reject()).then(d=>{if(d.products?.length)renderProducts(d.products,true)}).catch(()=>{/* Local static preview uses sample product categories. */});
+document.getElementById('year').textContent=new Date().getFullYear();
+(async()=>{try{const t=await fetch('/api/csrf',{credentials:'same-origin'}).then(r=>r.json());await fetch('/api/track-view',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json','X-CSRF-Token':t.csrfToken},body:JSON.stringify({path:location.pathname})})}catch(e){/* Static preview without backend: analytics stays unavailable. */}})();
+document.getElementById('menuBtn').addEventListener('click',()=>document.getElementById('navLinks').classList.toggle('open'));
+document.querySelectorAll('#navLinks a[href^="#"]').forEach(a=>a.addEventListener('click',()=>document.getElementById('navLinks').classList.remove('open')));
+const dlg=document.getElementById('loginDialog');
+document.getElementById('customerBtn').addEventListener('click',e=>{e.preventDefault();location.href='/customer.html'});
+document.getElementById('adminBtn').addEventListener('click',e=>{e.preventDefault();location.href='/admin.html'});
+document.getElementById('closeLogin').onclick=document.getElementById('closeLogin2').onclick=()=>dlg.close();
+document.getElementById('closeAdmin').onclick=()=>document.getElementById('adminDemo').style.display='none';
+document.getElementById('saveAnnouncement').onclick=()=>{const val=document.getElementById('announcementInput').value.trim();if(!val){document.getElementById('adminMessage').textContent='Please enter an announcement.';return}try{localStorage.setItem('avnDemoAnnouncement',val);document.getElementById('adminMessage').textContent='Saved in this browser preview only: '+val}catch(e){document.getElementById('adminMessage').textContent='Browser storage is unavailable.'}};
+document.getElementById('playVideoBtn').onclick=()=>{const v=document.getElementById('mainVideo');v.scrollIntoView({behavior:'smooth',block:'center'});v.play().catch(()=>{})};
+document.getElementById('contactForm').addEventListener('submit',async e=>{e.preventDefault();const submit=e.target.querySelector('button[type="submit"]');submit.disabled=true;try{const t=await fetch('/api/csrf',{credentials:'same-origin'}).then(r=>r.json());const r=await fetch('/api/enquiries',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json','X-CSRF-Token':t.csrfToken},body:JSON.stringify({name:document.getElementById('name').value,phone:document.getElementById('phone').value,message:document.getElementById('message').value,product:''})});const d=await r.json();if(!r.ok)throw new Error(d.error||'Enquiry could not be sent.');alert(d.message);e.target.reset()}catch(err){alert('Enquiry could not be sent from this preview/server. '+err.message+' Please call the store if the problem continues.')}finally{submit.disabled=false}});
+</script></body></html>

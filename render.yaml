@@ -1,0 +1,38 @@
+services:
+  - type: web
+    name: maa-kalawati-enterprises
+    runtime: node
+    plan: starter
+    region: singapore
+    buildCommand: npm install && npm run check
+    startCommand: npm start
+    healthCheckPath: /health
+    disk:
+      name: maa-kalawati-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: NODE_VERSION
+        value: 22.16.0
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_FILE
+        value: /var/data/maa-kalawati.sqlite
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: OWNER_NAME
+        value: Maa Kalawati Enterprises Owner
+      - key: OWNER_EMAIL
+        sync: false
+      - key: OWNER_PASSWORD
+        sync: false
+      - key: WHATSAPP_ACCESS_TOKEN
+        sync: false
+      - key: WHATSAPP_PHONE_NUMBER_ID
+        sync: false
+      - key: WHATSAPP_VERIFY_TOKEN
+        sync: false
+      - key: WHATSAPP_APP_SECRET
+        sync: false
+      - key: WHATSAPP_API_VERSION
+        value: v23.0

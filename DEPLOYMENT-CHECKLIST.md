@@ -1,0 +1,16 @@
+# Production checklist
+- [ ] Node.js 20+ and npm dependencies installed
+- [ ] `.env` secrets changed from all examples
+- [ ] Owner credentials unique and password manager stored
+- [ ] HTTPS and reverse proxy configured
+- [ ] Durable session store configured (not Express MemoryStore)
+- [ ] Persistent database and backups verified
+- [ ] Admin/customer role permissions tested
+- [ ] Website enquiry form posts to `/api/enquiries` with CSRF token; test it on the server (not via file://)
+- [ ] Meta WhatsApp Business Cloud API configured and verified
+- [ ] WhatsApp webhook HTTPS URL and verify token configured
+- [ ] `WHATSAPP_APP_SECRET` set and POST webhook signature verification tested
+- [ ] Consent collection and opt-out workflow tested
+- [ ] Privacy notice, retention and data deletion workflow added
+- [ ] Admin/staff/customer flows tested on mobile and desktop
+- [ ] Error monitoring and restore-from-backup tested
